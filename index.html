@@ -362,6 +362,168 @@
     </div>
   </section>
 
+  <!-- Adding a New Object -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-12">
+          <h3 class="title is-4">Adding a New Object</h3>
+          <div class="content has-text-justified">
+            <p>
+              Given a source image and a mask of an area to edit, <span class="method-name">Blended Latent
+                Diffusion</span> is able to add a new object in the masked area seamlessly.
+            </p>
+          </div>
+
+          <section class="hero is-light is-small">
+            <div class="hero-body">
+              <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/img.jpg" width="100%" />
+                    <p class="subtitle">Input image</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/mask_overlay.jpg" width="100%" />
+                    <p class="subtitle">Input mask</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/gravestone2.jpg" width="100%" />
+                    <p class="subtitle">"gravestone"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/toy_truck.jpg" width="100%" />
+                    <p class="subtitle">"toy truck"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/pred_snake.jpg" width="100%" />
+                    <p class="subtitle">"snake"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/big_stone2.jpg" width="100%" />
+                    <p class="subtitle">"big stone"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/bread1.jpg" width="100%" />
+                    <p class="subtitle">"bread"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/Buddha.jpg" width="100%" />
+                    <p class="subtitle">"Buddha"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/car_tire1.jpg" width="100%" />
+                    <p class="subtitle">"car tire"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/clay_pot1.jpg" width="100%" />
+                    <p class="subtitle">"clay pot"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/cola0.jpg" width="100%" />
+                    <p class="subtitle">"cola"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/egg1.jpg" width="100%" />
+                    <p class="subtitle">"egg"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/glow_stick1.jpg" width="100%" />
+                    <p class="subtitle">"glow stick"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/ice_cube.jpg" width="100%" />
+                    <p class="subtitle">"ice cube"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/lamp2.jpg" width="100%" />
+                    <p class="subtitle">"lamp"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/milk1.jpg" width="100%" />
+                    <p class="subtitle">"milk"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/pile_of_dirt1.jpg" width="100%" />
+                    <p class="subtitle">"pile of dirt"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/pile_of_gold1.jpg" width="100%" />
+                    <p class="subtitle">"pile of gold"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/tooth1.jpg" width="100%" />
+                    <p class="subtitle">"tooth"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/black_chair.jpg" width="100%" />
+                    <p class="subtitle">"black chair"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/white_chair.jpg" width="100%" />
+                    <p class="subtitle">"white chair"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/bonfire.jpg" width="100%" />
+                    <p class="subtitle">"bonfire"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/stones.jpg" width="100%" />
+                    <p class="subtitle">"stones"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/black_stones.jpg" width="100%" />
+                    <p class="subtitle">"black stones"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/green_stones.jpg" width="100%" />
+                    <p class="subtitle">"green stones"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/purple_stones.jpg" width="100%" />
+                    <p class="subtitle">"purple stones"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/red_ball.jpg" width="100%" />
+                    <p class="subtitle">"red ball"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/yellow_ball.jpg" width="100%" />
+                    <p class="subtitle">"yellow ball"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/huge_ant.jpg" width="100%" />
+                    <p class="subtitle">"huge ant"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/smoke.jpg" width="100%" />
+                    <p class="subtitle">"smoke"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/toy_car.jpg" width="100%" />
+                    <p class="subtitle">"toy car"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/water_puddle.jpg" width="100%" />
+                    <p class="subtitle">"water puddle"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/huge_apple.jpg" width="100%" />
+                    <p class="subtitle">"huge apple"</p>
+                  </div>
+                  <div class="item has-text-centered">
+                    <img src="./static/images/add_a_new_object/yellow_toy_truck.jpg" width="100%" />
+                    <p class="subtitle">"yellow toy truck"</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- 
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
